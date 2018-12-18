@@ -1,0 +1,6 @@
+packages/
+.vs/
+Plugins.Package/bin/
+Plugins.Package/obj/
+Plugin.Dev/bin/
+Plugin.Dev/obj/

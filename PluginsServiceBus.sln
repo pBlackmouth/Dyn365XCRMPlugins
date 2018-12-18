@@ -3,9 +3,44 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DynamicsCrm.Base", "DynamicsCrm.Base\DynamicsCrm.Base.shproj", "{C83E8FBF-B81C-4627-8516-6A4DBEBCFF53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dev", "Dev", "{2ADA0CBD-0138-49C4-892E-37816479FDB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Dev", "Plugin.Dev\Plugin.Dev.csproj", "{8A70B376-9E23-4E1A-95FE-53DFF30DCE43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalApp", "ExternalApp", "{B71059BF-6882-4E5C-ABC1-107F33478A42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7A8D7A3A-0D1A-4082-A81B-0401ABD70B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins.Package", "Plugins.Package\Plugins.Package.csproj", "{A7A1683F-2FA0-429F-A305-41CE064E0AFB}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DynamicsCrm.Base\DynamicsCrm.Base.projitems*{8a70b376-9e23-4e1a-95fe-53dff30dce43}*SharedItemsImports = 4
+		DynamicsCrm.Base\DynamicsCrm.Base.projitems*{a7a1683f-2fa0-429f-a305-41ce064e0afb}*SharedItemsImports = 4
+		DynamicsCrm.Base\DynamicsCrm.Base.projitems*{c83e8fbf-b81c-4627-8516-6a4dbebcff53}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A70B376-9E23-4E1A-95FE-53DFF30DCE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A70B376-9E23-4E1A-95FE-53DFF30DCE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A70B376-9E23-4E1A-95FE-53DFF30DCE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A70B376-9E23-4E1A-95FE-53DFF30DCE43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A1683F-2FA0-429F-A305-41CE064E0AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A1683F-2FA0-429F-A305-41CE064E0AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A1683F-2FA0-429F-A305-41CE064E0AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A1683F-2FA0-429F-A305-41CE064E0AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C83E8FBF-B81C-4627-8516-6A4DBEBCFF53} = {7A8D7A3A-0D1A-4082-A81B-0401ABD70B9A}
+		{8A70B376-9E23-4E1A-95FE-53DFF30DCE43} = {2ADA0CBD-0138-49C4-892E-37816479FDB6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34FD3D48-0BF3-44A5-99F6-E96317639358}
